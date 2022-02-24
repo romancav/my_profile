@@ -1,0 +1,98 @@
+body { 
+	background-color: rgb(73, 83, 113);
+    color: rgb(241, 224, 172);
+    font-family: 'Caveat', cursive;
+	}
+
+h1	{
+	color: rgb(116, 149, 154);
+	font-family:'Courgette', cursive;
+	text-decoration: bold; 
+	letter-spacing: 9px;
+ 	}
+h2  {
+	background-color: rgb(73, 83, 113);
+    color: rgb(241, 224, 172);
+    font-family: 'Caveat', cursive;
+    font-size: 700;
+    letter-spacing: 7px;
+	}
+
+a 	{
+	text-decoration:none;
+	color:rgb(241, 224, 172);
+ 	}
+a 	hover{
+	color: rgb(116, 149, 154);
+	}
+
+/* custom disign with class*/
+
+.container {
+	width:  1000px;
+	margin:  60px auto;
+}
+
+@media (max-width:700px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media (max-width:500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+
+.card-blue {
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0,1) ;
+	border-radius: 4px ;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	}
+
+.btn-beige{
+	background-color: rgb(241, 224, 172) ;
+	color: rgb(73, 83, 113) ;
+	padding: 10px 20px;
+	border-radius: 4px 
+}
+
+.btn-beige:hover {
+	background-color: rgb(116, 149, 154);
+	color: rgb(73, 83, 113)
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 100px;
+	margin: 30px;
+}
+
+/* design adjustment with id*/
+
+#introduction p {
+	margin: 40px;
+
+}
+
+
+
+
+
+
